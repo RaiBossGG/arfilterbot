@@ -319,7 +319,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton("❓❗ How to Verify ❗❓", url="https://telegram.me/FF_Help")]
                 ]
-                ]
+                
                 await message.reply_text(
                     text="<b>Hey {message.from_user.mention}\nYou are not verified 😐 !\n\nOnce you are verified, No need to watch ads until tomorrow.\n\nKindly verify to continue !</b>",
                     protect_content=True,
